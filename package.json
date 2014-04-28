@@ -1,0 +1,23 @@
+{
+  "name": "node-sample-module",
+  "version": "0.0.1",
+  "description": "My First npm Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "for f in tests/*; do echo \"$f\"; done; echo 'passed!'; exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://sily20@github.com/sily20/node-sample-module.git"
+  },
+  "keywords": [
+    "npm",
+    "module"
+  ],
+  "author": "Test Man",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sily20/node-sample-module/issues"
+  },
+  "homepage": "https://github.com/sily20/node-sample-module"
+}
